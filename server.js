@@ -10,7 +10,7 @@ const { el } = require("date-fns/locale");
 dotenv.config();
 
 const app = express();
-const PORT = 3002;
+const PORT = process.env.PORT || 5050;
 app.use(cors());
 app.use(express.json());
 
