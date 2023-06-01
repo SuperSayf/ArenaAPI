@@ -53,10 +53,7 @@
     "uuidv4": "^6.2.13"
   },
   "scripts": {
-    "start": "node server.js",
-    "build": "craco build",
-    "test": "craco test --env=jsdom",
-    "eject": "craco eject"
+    "start": "node server.js"
   },
   "engines": {
     "node": "18.x"
